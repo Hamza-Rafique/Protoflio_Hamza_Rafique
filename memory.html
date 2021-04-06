@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Some of My Beautiful memory</h1>
+  <p>“If you tell the truth, you don't have to remember anything.” “Right now I'm having amnesia and déjà vu at the same time. “Our memory is a more perfect world than the universe: it gives back life to those who no longer exist.”</p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="memory/IMG_20200502_010339_652.jpg" style="width:100%">
+    <img src="memory/IMG_20200506_171840_998 (1).jpg" style="width:100%">
+    <img src="memory/IMG_20200528_094233_005.jpg" style="width:100%">
+    <img src="memory/IMG_20200607_135758_267.jpg" style="width:100%">
+    <img src="memory/IMG_20200906_203303_900.jpg" style="width:100%">
+    <img src="memory/IMG_20200916_211755_882.jpg" style="width:100%">
+    <img src="memory/IMG_20201001_223358_607.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="memory/IMG_20201002_191509_710.jpg" style="width:100%">
+    <img src="memory/IMG_20201005_173806_691.jpg" style="width:100%">
+    <img src="memory/IMG_20201008_214000_986.jpg" style="width:100%">
+    <img src="memory/IMG_20201213_182358_395.jpg" style="width:100%">
+    <img src="memory/IMG_20201220_204516_320.jpg" style="width:100%">
+    <img src="memory/IMG_20201002_191509_710.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="memory/IMG_20200906_203303_900.jpg" style="width:100%">
+    <img src="memory/IMG_20200607_135758_267.jpg" style="width:100%">
+    <img src="memory/IMG_20200528_094233_005.jpg" style="width:100%">
+    <img src="memory/IMG_20200502_010339_652.jpg" style="width:100%">
+    <img src="memory/IMG_20200506_171840_998 (1).jpg" style="width:100%">
+    <img src="memory/IMG_20201001_223358_607.jpg" style="width:100%">
+    <img src="memory/IMG_20200916_211755_882.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="memory/IMG_20201001_223358_607.jpg" style="width:100%">
+    <img src="memory/IMG_20200916_211755_882.jpg" style="width:100%">
+    <img src="memory/IMG_20200906_203303_900.jpg" style="width:100%">
+    <img src="memory/IMG_20200906_203303_900.jpg" style="width:100%">
+    <img src="memory/IMG_20200528_094233_005.jpg" style="width:100%">
+    <img src="memory/IMG_20200506_171840_998 (1).jpg" style="width:100%">
+    <img src="memory/IMG_20200502_010339_652.jpg" style="width:100%">
+  </div>
+  </div>
+</div>
+
+</body>
+</html>
