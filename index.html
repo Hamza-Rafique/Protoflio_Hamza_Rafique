@@ -5,6 +5,13 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+
+<script>
+	function myFunction() {
+	   var element = document.body;
+	   element.classList.toggle("dark-mode");
+	}
+	</script>
 	</head>
 	<body class="is-preload">
 
@@ -27,8 +34,10 @@
 										
 									</ul>
 								</header>
-
-							<!-- Banner -->
+								<div class="buttondiv" style="text-align: center;">
+								  <button style ="margin:1rem; text-align: center; box-shadow: 0 9px #178013;" onclick="myFunction()">dark&light mode</button>
+						     	</div> 
+								<!-- Banner -->
 								<section id="banner">
 									<div class="content">
 										<header>
@@ -160,7 +169,7 @@
 									</header>
 									<ul>
 										<li><a href="index.html">Home</a></li>
-										<!-- <li><a href="generic.html">Generic</a></li> -->
+										<li><a href="devcource.html">Web-development-cource-recource</a></li>
 										<li><a href="https://docs.google.com/document/d/1bm-0U7M9d18p5KZ1UOO92pAsiZ30WoTI/edit" target="_blank">My CV</a></li>
 										<li><a href="#what_i_can_do">What i can do</a></li>
 										<li><a href="#Project_that_i_recently_complete">Project's</a></li>
