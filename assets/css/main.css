@@ -125,7 +125,9 @@ em, i {
   font-style: italic; }
 
 p {
-  margin: 0 0 2em 0; }
+  margin: 0 0 2em 0; 
+ text-align: justify;
+}
 
 h1, h2, h3, h4, h5, h6 {
   color: #3d4449;
@@ -2134,7 +2136,7 @@ button,
     flex-shrink: 0;
     display: block;
     margin: 0 0 2em 4em;
-    width: 50%; }
+    width: 20%; }
     #banner .image img {
       height: 100%;
       -moz-object-fit: cover;
